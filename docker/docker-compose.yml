@@ -11,4 +11,4 @@ services:
         source: ../src
         target: /workdir
     working_dir: /workdir
-    command: python main.py
+    command: ./run.sh
