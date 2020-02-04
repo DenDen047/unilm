@@ -1,4 +1,7 @@
 numpy
 pillow
-opencv-python
-instabot
+transformers
+spacy
+ftfy==4.4.3
+nltk
+py-rouge
