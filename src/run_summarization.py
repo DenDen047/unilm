@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader, SequentialSampler
 from tqdm import tqdm
 
 from modeling_bertabs import BertAbs, build_predictor
-from transformers import BertTokenizer
+from transformers import BertTokenizer, AutoTokenizer
 from utils_summarization import (
     SummarizationDataset,
     build_mask,

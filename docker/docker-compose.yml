@@ -11,4 +11,4 @@ services:
         source: ../src
         target: /workdir
     working_dir: /workdir
-    command: ./run.sh
+    command: python main.py --documents_dir ./data --summaries_output_dir ./output --no_cuda true --batch_size 1 --min_length 50 --max_length 100 --beam_size 3 --alpha 0.95 --block_trigram false
